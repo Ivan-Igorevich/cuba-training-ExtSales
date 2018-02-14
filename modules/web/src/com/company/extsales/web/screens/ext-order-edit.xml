@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.extsales.web.screens.ExtOrderEdit"
+        extends="com/company/sales/web/order/order-edit.xml"
+        messagesPack="com.company.extsales.web.screens"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd">
+    <dsContext>
+        <datasource id="extOrderDs"
+                    class="com.company.extsales.entity.ExtOrder"
+                    view="extOrder-view">
+            <collectionDatasource id="prodsDs"
+                                  property="items"/>
+        </datasource>
+    </dsContext>
+    <layout>
+        <fieldGroup id="fieldGroup">
+            <column>
+                <field property="isUrgent"/>
+            </column>
+        </fieldGroup>
+    </layout>
+</window>
