@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fts-config xmlns="http://schemas.haulmont.com/cuba/fts.xsd">
+    <entities>
+        <entity class="com.company.extsales.entity.ExtOrder">
+            <include re=".*"/>
+        </entity>
+        <entity class="com.company.sales.entity.Order">
+            <include re=".*"/>
+        </entity>
+        <entity class="com.company.sales.entity.Item">
+            <include re=".*"/>
+        </entity>
+    </entities>
+</fts-config>
