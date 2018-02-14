@@ -2,8 +2,7 @@
 <window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
         class="com.company.extsales.web.screens.ExtOrderEdit"
         extends="com/company/sales/web/order/order-edit.xml"
-        messagesPack="com.company.extsales.web.screens"
-        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd">
+        messagesPack="com.company.extsales.web.screens">
     <dsContext>
         <datasource id="extOrderDs"
                     class="com.company.extsales.entity.ExtOrder"
