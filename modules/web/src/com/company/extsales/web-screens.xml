@@ -3,4 +3,6 @@
     <include file="com/company/extsales/screens.xml"/>
     <screen id="sales$Order.edit"
             template="com/company/extsales/web/screens/ext-order-edit.xml"/>
+    <screen id="mainWindow"
+            template="com/company/extsales/web/screens/ext-mainwindow.xml"/>
 </screen-config>

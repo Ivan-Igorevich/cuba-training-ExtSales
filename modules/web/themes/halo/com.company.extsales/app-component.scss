@@ -1,0 +1,5 @@
+@import "halo-ext";
+
+@mixin com_company_extsales {
+  @include com_company_extsales-halo-ext;
+}
